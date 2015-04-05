@@ -1,0 +1,35 @@
+.shido-navigation {
+	table {
+		width:100%;
+		table-layout:fixed;
+		
+		td {
+		
+			a {
+				display:block;
+				text-decoration:none;
+				border-right: 1px solid #ddd;
+				outline : none;
+			}
+			
+			a:hover {
+				outline : none;
+				text-decoration:none;
+			}
+			
+			a:link {
+				outline : none;
+				text-decoration:none;
+			}
+		}
+		
+		td:last-child {
+		
+			a {
+				display:block;
+				border-right: none;
+				text-decoration:none;
+			}
+		}
+	}
+}
